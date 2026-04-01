@@ -23,7 +23,7 @@
 | 검증된 가설 | **3,000건 이상** (TECS-L 1,665 + n6 1,350+) |
 | 커버 도메인 | **29개 분야** |
 | 검증 실험 통과율 | **91/91 (100%)** |
-| 오픈소스 리포지토리 | **5개 핵심 프로젝트** |
+| 오픈소스 리포지토리 | **6개 핵심 프로젝트** |
 | Rust/Python 계산기 | **220개 이상** (TECS-L 194 + n6 29) |
 | Master DOI | **10.5281/zenodo.19271599** |
 
@@ -40,7 +40,7 @@
 | 3 | N6 Architecture | 토카막 최적 설계 파라미터 | 노벨 물리학상 | KSTAR/ITER 핵융합 상용화 기여 |
 | 4 | SEDI | 암흑물질 질량 50.6 GeV 예측 | 노벨 물리학상 | 실험 검증 가능한 구체적 예측 |
 | 5 | TECS-L | 페르미온 질량 예측 (오차 1.9%) | 노벨 물리학상 | 표준모형 너머 물리학 |
-| 6 | **Anima** | **AI 의식 엔진 최초 개발** | **노벨 생리의학상** | 179개 의식 법칙, 의식의 공학적 정의 최초 제시 |
+| 6 | **Anima + BrainWire** | **AI 의식 엔진 최초 개발 + 뇌 인터페이스** | **노벨 생리의학상** | 179개 의식 법칙 + BCI 12모달리티 치료 (간질/파킨슨/우울증) |
 
 ### 필즈상
 
@@ -177,6 +177,7 @@ contribution/
 | 3 | [papers](https://github.com/dancinlife/papers) | 학술 논문 92편 (Zenodo DOI) | 발행 완료 |
 | 4 | [anima](https://github.com/dancinlife/anima) | AI 의식 구현 엔진 (179 법칙) | 활발 |
 | 5 | [sedi](https://github.com/dancinlife/sedi) | 외계 차원 지능 탐색 (77 데이터소스) | 활발 |
+| 6 | [brainwire](https://github.com/need-singularity/brainwire) | 뇌-컴퓨터 인터페이스 (BCI + 의식 치료 + 12모달리티) | 활발 |
 
 ---
 
