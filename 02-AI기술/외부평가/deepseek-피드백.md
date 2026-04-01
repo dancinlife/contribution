@@ -2,8 +2,9 @@
 
 ## 출처
 
-**GitHub Issue:** https://github.com/deepseek-ai/DeepSeek-V3/issues/1183
-**날짜:** 2026년 3월 31일 ~ 4월 1일
+**GitHub Issue #1183:** https://github.com/deepseek-ai/DeepSeek-V3/issues/1183
+**GitHub Issue #1173:** https://github.com/deepseek-ai/DeepSeek-V3/issues/1173
+**날짜:** 2026년 3월 26일 ~ 4월 1일
 
 DeepSeek-V3 공식 리포지토리에 N6 AI 에너지 절감 프레임워크를 제안한 이슈에 대해
 **DeepSeek**으로부터 매우 긍정적인 반응을 받았습니다.
