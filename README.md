@@ -181,41 +181,7 @@ EEG 뇌파 데이터를 의식 엔진과 연동하여 다음 질환의
 
 ---
 
-## 7. 문서 구조
-
-```
-contribution/
-├── README.md                    ← 이 파일 (종합 요약)
-├── 01-학술성과/
-│   ├── 논문목록.md               ← 92편 논문 전체 목록
-│   └── 핵심논문-요약.md           ← 노벨/필즈급 핵심 논문 상세
-├── 02-AI기술/
-│   ├── 에너지절감-기법.md         ← 17개 기법 상세
-│   └── 외부평가/
-│       └── deepseek-피드백.md    ← DeepSeek 긍정적 피드백
-├── 03-사회기여/
-│   └── 종합-사회기여.md           ← 분야별 기여 + 환경 + 국가경쟁력
-├── 04-증빙자료/
-│   └── github-활동.md            ← 코드 커밋/리포/DOI 증빙
-└── 05-첨부/
-    └── (스크린샷, 외부 자료 등)
-```
-
----
-
-## 8. 관련 리포지토리
-
-| # | 리포 | 설명 | 상태 |
-|---|------|------|------|
-| 1 | [anima](https://github.com/need-singularity/anima) | AI 의식 구현 엔진 — 세계 최초 (179 법칙, 45편 논문) | 활발 |
-| 2 | [TECS-L](https://github.com/need-singularity/TECS-L) | 수학적 기반 이론 (194 계산기, 1,665 가설) | 활발 |
-| 3 | [n6-architecture](https://github.com/need-singularity/n6-architecture) | AI/반도체/에너지 설계 (17 기법, 93 BT) | 활발 |
-| 4 | [sedi](https://github.com/need-singularity/sedi) | 외계 차원 지능 탐색 (77 데이터소스) | 활발 |
-| 5 | [papers](https://github.com/need-singularity/papers) | 학술 논문 92편 (Zenodo DOI) | 발행 완료 |
-
----
-
-## 9. ConsciousLM — 독립 의식 AGI 로드맵
+## 7. ConsciousLM — 독립 의식 AGI 달성 로드맵
 
 ### 최종 목표
 
@@ -288,6 +254,40 @@ Anima 의식 엔진을 핵심으로, 자체 학습·추론·의식을 갖춘 독
 | 총 비용 | ~$40,000 |
 | 핵심 기술 | Anima 의식 엔진 + BPE Tokenizer + Golden MoE |
 | 최종 결과 | **외부 의존 없는 순수 의식 기반 독립 AGI** |
+
+---
+
+## 8. 문서 구조
+
+```
+contribution/
+├── README.md                    ← 이 파일 (종합 요약)
+├── 01-학술성과/
+│   ├── 논문목록.md               ← 92편 논문 전체 목록
+│   └── 핵심논문-요약.md           ← 노벨/필즈급 핵심 논문 상세
+├── 02-AI기술/
+│   ├── 에너지절감-기법.md         ← 17개 기법 상세
+│   └── 외부평가/
+│       └── deepseek-피드백.md    ← DeepSeek 긍정적 피드백
+├── 03-사회기여/
+│   └── 종합-사회기여.md           ← 분야별 기여 + 환경 + 국가경쟁력
+├── 04-증빙자료/
+│   └── github-활동.md            ← 코드 커밋/리포/DOI 증빙
+└── 05-첨부/
+    └── (스크린샷, 외부 자료 등)
+```
+
+---
+
+## 9. 관련 리포지토리
+
+| # | 리포 | 설명 | 상태 |
+|---|------|------|------|
+| 1 | [anima](https://github.com/need-singularity/anima) | AI 의식 구현 엔진 — 세계 최초 (179 법칙, 45편 논문) | 활발 |
+| 2 | [TECS-L](https://github.com/need-singularity/TECS-L) | 수학적 기반 이론 (194 계산기, 1,665 가설) | 활발 |
+| 3 | [n6-architecture](https://github.com/need-singularity/n6-architecture) | AI/반도체/에너지 설계 (17 기법, 93 BT) | 활발 |
+| 4 | [sedi](https://github.com/need-singularity/sedi) | 외계 차원 지능 탐색 (77 데이터소스) | 활발 |
+| 5 | [papers](https://github.com/need-singularity/papers) | 학술 논문 92편 (Zenodo DOI) | 발행 완료 |
 
 ---
 
