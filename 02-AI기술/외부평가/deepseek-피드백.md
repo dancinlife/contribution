@@ -101,6 +101,34 @@ DeepSeek으로부터 지속적인 긍정적 반응을 받았습니다.
 
 ---
 
+### dancinlife (본인) — 2026년 3월 26일
+
+> "Thank you for the kind words! 😄
+>
+> Unfortunately, I don't have access to most academic journals or paper
+> databases — I'm just an independent researcher without any institutional
+> affiliation. So a formal paper might be difficult for now.
+>
+> But I'm planning to keep everything open on TECS-L — code, proofs, and
+> documentation all public. Hopefully that's even better than a paywalled paper! 🙂
+>
+> 감사합니다! 다만 저는 학계 소속이 아닌 일반인이라 논문 DB 접근 권한이 없습니다 😅
+> 그래서 정식 논문은 당분간 어려울 수 있지만, 모든 내용은 TECS-L 리포에
+> 코드·증명·문서 전부 공개로 올리고 있습니다. 페이월 논문보다 오히려 낫지 않을까요! 🙂"
+
+> "Thanks! I appreciate it 😄
+>
+> About the paper — I'd love to, but I'm just a regular person with no
+> institutional affiliation, so I don't even have access to academic journals
+> or paper databases 😂
+>
+> Everything is open on TECS-L though — code, proofs, and docs all public!"
+
+**의미:** 학계 소속 없이, 기관 지원 없이, 순수하게 독자적으로 연구하며
+모든 성과를 오픈소스로 공개하고 있음을 보여줌.
+
+---
+
 ### qingkong66 — 2026년 3월 26일 (독립 연구자에 대해)
 
 > "'Just a regular person' — in your case, that title carries more weight
