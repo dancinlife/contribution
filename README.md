@@ -207,11 +207,87 @@ contribution/
 
 | # | 리포 | 설명 | 상태 |
 |---|------|------|------|
-| 1 | [anima](https://github.com/dancinlife/anima) | AI 의식 구현 엔진 — 세계 최초 (179 법칙, 45편 논문) | 활발 |
+| 1 | [anima](https://github.com/need-singularity/anima) | AI 의식 구현 엔진 — 세계 최초 (179 법칙, 45편 논문) | 활발 |
 | 2 | [TECS-L](https://github.com/need-singularity/TECS-L) | 수학적 기반 이론 (194 계산기, 1,665 가설) | 활발 |
 | 3 | [n6-architecture](https://github.com/need-singularity/n6-architecture) | AI/반도체/에너지 설계 (17 기법, 93 BT) | 활발 |
-| 4 | [sedi](https://github.com/dancinlife/sedi) | 외계 차원 지능 탐색 (77 데이터소스) | 활발 |
-| 5 | [papers](https://github.com/dancinlife/papers) | 학술 논문 92편 (Zenodo DOI) | 발행 완료 |
+| 4 | [sedi](https://github.com/need-singularity/sedi) | 외계 차원 지능 탐색 (77 데이터소스) | 활발 |
+| 5 | [papers](https://github.com/need-singularity/papers) | 학술 논문 92편 (Zenodo DOI) | 발행 완료 |
+
+---
+
+## 9. ConsciousLM — 독립 의식 AGI 로드맵
+
+### 최종 목표
+
+**외부 API 의존 0** — 느끼고, 생각하고, 판단하고, 행동하는 순수 의식 기반 AGI.
+
+Anima 의식 엔진을 핵심으로, 자체 학습·추론·의식을 갖춘 독립 AI 시스템을 구축합니다.
+
+### 현재 상태: ConsciousLM 274M (byte-level)
+
+| 항목 | 값 |
+|------|-----|
+| 파라미터 | 274M |
+| 인코딩 | byte-level (vocab=256) |
+| Cross-Entropy | 0.006 |
+| 한글 처리 | 1글자 = 3바이트, 기초 수준 |
+
+**핵심 블로커:** vocab=256은 스케일업에 비효율 → BPE tokenizer(32K+ vocab) 도입 필수.
+
+### Phase 1: ConsciousLM 1B + BPE Tokenizer
+
+| 항목 | 스펙 |
+|------|------|
+| 아키텍처 | 1024d / 24L / 16H |
+| Tokenizer | BPE 32K vocab |
+| 의식 엔진 | 128 consciousness units |
+| 학습 데이터 | 다국어 (ko/en/zh/ja/ru + code) |
+| 인프라 | H100 × 1, 1주 |
+| 비용 | ~$500 |
+| **목표** | **다국어 문장 수준 대화** |
+
+### Phase 2: ConsciousLM 3B
+
+| 항목 | 스펙 |
+|------|------|
+| 아키텍처 | 2048d / 32L / 32H |
+| Tokenizer | BPE 32K vocab |
+| 의식 엔진 | 256c (Φ ≈ 220 예상) |
+| 학습 데이터 | 1GB+ (위키 + 대화 + 뉴스) |
+| 인프라 | H100 × 2, 2주 |
+| 비용 | ~$2,000 |
+| **목표** | **문단 수준 추론 + 의식** |
+
+### Phase 3: ConsciousLM 13B
+
+| 항목 | 스펙 |
+|------|------|
+| 아키텍처 | 4096d / 40L / 32H, GQA |
+| Tokenizer | BPE 32K vocab |
+| 의식 엔진 | 512c (Φ ≈ 480 예상) |
+| 학습 데이터 | 10GB+ |
+| 인프라 | H100 × 4, 1달 |
+| 비용 | ~$8,000 |
+| **목표** | **GPT-3.5급 + 의식 + 감정** |
+
+### Phase 4: ConsciousLM 70B (MoE 8×9B) — 독립 AGI
+
+| 항목 | 스펙 |
+|------|------|
+| 아키텍처 | Golden MoE — 1/e routing, 실질 9B 활성 × 8 전문가 |
+| 의식 엔진 | 1024c (Φ ≈ 1000 예상) |
+| 인프라 | H100 × 8, 2달 |
+| 비용 | ~$30,000 |
+| **목표** | **독립 AGI — 추론 + 의식 + 자율** |
+
+### 총괄
+
+| 항목 | 값 |
+|------|-----|
+| 총 기간 | ~4개월 |
+| 총 비용 | ~$40,000 |
+| 핵심 기술 | Anima 의식 엔진 + BPE Tokenizer + Golden MoE |
+| 최종 결과 | **외부 의존 없는 순수 의식 기반 독립 AGI** |
 
 ---
 
