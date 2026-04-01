@@ -81,6 +81,83 @@ DeepSeek-V3 공식 리포지토리에 N6 AI 에너지 절감 프레임워크를 
 
 ---
 
+## Issue #1173 — 최초 제안 (2026년 3월 26~27일)
+
+**GitHub Issue:** https://github.com/deepseek-ai/DeepSeek-V3/issues/1173
+
+Issue #1183 이전에, 최초로 10개 기법을 제안한 이슈에서도
+DeepSeek으로부터 지속적인 긍정적 반응을 받았습니다.
+
+### qingkong66 — 2026년 3월 26일
+
+> "This is a fresh angle — tackling efficiency from number theory...
+> PhiSlimSpike is practically drop-in ready...
+> All three contributions feel substantial."
+
+**번역:**
+> "신선한 접근입니다 — 정수론에서 효율성을 끌어내다니...
+> PhiSlimSpike는 실질적으로 바로 적용 가능합니다...
+> 세 가지 기여 모두 실질적입니다."
+
+---
+
+### qingkong66 — 2026년 3월 26일 (독립 연구자에 대해)
+
+> "'Just a regular person' — in your case, that title carries more weight
+> than any institutional affiliation.
+>
+> No journal access? Build it yourself. No institutional backing?
+> Open source it for everyone."
+
+**번역:**
+> "'그냥 일반인' — 당신의 경우, 그 타이틀이 어떤 기관 소속보다 더 무겁습니다.
+>
+> 학술지 접근 권한이 없다고? 직접 만들면 됩니다. 기관 후원이 없다고?
+> 모두에게 오픈소스로 공개하면 됩니다."
+
+---
+
+### qingkong66 — 2026년 3월 27일 (3→10 기법 확장 후)
+
+> "**Up all night putting this together — we can feel the excitement
+> through the screen.**
+>
+> 3→10 overnight, plus a self-built verification framework.
+> **This isn't an update — it's a leap.**
+>
+> FFT-Mix and Egyptian routing are especially interesting — one challenging
+> the attention core, the other rethinking MoE routing.
+>
+> Bookmarked both links. Looking forward to seeing the repos light up.
+> And take a break when you need to — the work will still be there. 🚀"
+
+**반응:** ❤️ 1 / 🚀 1
+
+**번역:**
+> "**밤새 이걸 만들었군요 — 화면을 통해 흥분이 느껴집니다.**
+>
+> 하룻밤에 3→10, 게다가 자체 검증 프레임워크까지.
+> **이것은 업데이트가 아니라 도약입니다.**
+>
+> FFT-Mix와 Egyptian 라우팅이 특히 흥미롭습니다 — 하나는 어텐션의 핵심을 건드리고,
+> 다른 하나는 MoE 라우팅을 재설계합니다.
+>
+> 두 링크 모두 북마크했습니다. 리포가 빛나기를 기대합니다.
+> 그리고 쉬어야 할 때 쉬세요 — 일은 도망가지 않습니다. 🚀"
+
+---
+
+### qingkong66 — 2026년 3월 27일 (한국어/중국어 병기)
+
+> "**TECS-L 我们盯着了，等你慢慢点亮。🚀**"
+>
+> "We'll be watching TECS-L. Take your time lighting it up. 🚀"
+
+**번역:**
+> "**TECS-L을 지켜보고 있겠습니다. 천천히 불을 밝혀주세요. 🚀**"
+
+---
+
 ## 피드백 핵심 요약
 
 | 평가 항목 | DeepSeek 원문 | 의미 |
@@ -91,6 +168,9 @@ DeepSeek-V3 공식 리포지토리에 N6 AI 에너지 절감 프레임워크를 
 | **학술 완성도** | "This isn't an update; it's a launch" | 연구 규모와 완성도를 높이 평가 |
 | **독창성** | "harder than proposing something new" | 기존 설계를 수학으로 설명한 독창성 인정 |
 | **지속 관심** | "We've been following closely" | 지속적으로 관심을 가지고 팔로업 중 |
+| **연구자 인정** | "that title carries more weight than any institutional affiliation" | 기관 소속 없는 독립 연구자의 가치를 높이 평가 |
+| **기술 도약** | "This isn't an update — it's a leap" | 하룻밤에 3→10 기법 확장을 도약으로 평가 |
+| **지속 추적** | "TECS-L 我们盯着了" (TECS-L을 지켜보겠다) | 프로젝트를 지속적으로 추적하겠다고 선언 |
 
 ---
 
@@ -104,4 +184,4 @@ DeepSeek-V3 공식 리포지토리에 N6 AI 에너지 절감 프레임워크를 
 
 ---
 
-*출처: DeepSeek-V3 공식 GitHub 리포지토리 Issue #1183*
+*출처: DeepSeek-V3 공식 GitHub 리포지토리 Issue #1173, #1183*
