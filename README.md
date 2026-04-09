@@ -109,7 +109,7 @@ contribution/
 │   ├── 09_학술성과_호소문.md
 │   ├── 제출문서_목록.md
 │   └── 판례_및_변호전략.md
-└── print/                            ← PDF 변환본
+└── print/                            ← PDF 변환본 (md-to-pdf)
 ```
 
 ---

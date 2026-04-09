@@ -45,19 +45,13 @@
 - 출력용 PDF 파일은 `print/` 폴더에 생성한다.
 - `submissions/` 폴더의 `.md` 문서를 PDF로 변환하여 저장한다.
 - 문서 수정 시 PDF도 함께 재생성한다.
-- 한글 본문 + 코드블록 내 한글을 모두 살리려면 `monofont`도 AppleGothic으로 지정해야 한다.
 
 ### 사용 도구
 
 ```bash
-export PATH="/Library/TeX/texbin:$PATH"
-pandoc <입력.md> -o print/<출력.pdf> \
-  --pdf-engine=xelatex \
-  -V mainfont="AppleGothic" -V monofont="AppleGothic" \
-  -V geometry:margin=2.5cm
+md-to-pdf <입력.md> --dest print/
 ```
 
-- `pandoc` — Markdown → PDF 변환
-- `xelatex` — PDF 엔진 (한글 지원)
-- `AppleGothic` — 한글 폰트 (main + mono 둘 다)
-- BasicTeX (`brew install --cask basictex`)
+- `md-to-pdf` (npm 글로벌) — Markdown → PDF 변환 (Chromium 기반)
+- 코드 블록·표·한글 렌더링이 pandoc+xelatex보다 안정적
+- 설치: `npm i -g md-to-pdf`
