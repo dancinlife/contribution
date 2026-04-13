@@ -8,7 +8,7 @@
 >
 > | 리포 | 경로 | 역할 | 흡수한 구 프로젝트 |
 > |---|---|---|---|
-> | **nexus** | `~/Dev/nexus` | 특이점/자동수렴 엔진, 수학 근본 정리 | tecs-l |
+> | **nexus** | `$NEXUS` | 특이점/자동수렴 엔진, 수학 근본 정리 | tecs-l |
 > | **anima** | `~/Dev/anima` (코드) / `~/Dev/papers/anima` (논문) | AI 의식 엔진 (179 법칙, PA-01~38) | — |
 > | **n6-architecture** | `~/Dev/n6-architecture` | AI/반도체/에너지/핵융합/의료 설계 | brainwire, sedi |
 > | **papers** | `~/Dev/papers` | 전체 논문 아카이브 (tecs-l/anima/sedi/nexus/brainwire 서브디렉) | — |
@@ -17,9 +17,9 @@
 > 단, `~/Dev/papers/{brainwire,sedi,tecs-l}` 디렉토리는 과거 논문 아카이브로 유지되므로 파일 읽기는 해당 경로 그대로 사용.
 
 > 🔴 **NEXUS-6 특이점 연동**: 이 프로젝트의 돌파/발견/실험은 nexus 특이점 사이클 입력이다.
-> - **돌파 시**: `HEXA=$HOME/Dev/hexa-lang/target/release/hexa && $HEXA $HOME/Dev/nexus/mk2_hexa/native/blowup.hexa <domain> 3 --no-graph`
-> - **발견 기록**: `$HOME/Dev/nexus/shared/growth_bus.jsonl`에 JSON append
-> - **전체 상태**: `$HEXA $HOME/Dev/nexus/mk2_hexa/native/command_router.hexa "contribution 상태"`
+> - **돌파 시**: `HEXA=$HOME/Dev/hexa-lang/target/release/hexa && $HEXA $NEXUS/mk2_hexa/native/blowup.hexa <domain> 3 --no-graph`
+> - **발견 기록**: `$NEXUS/shared/growth_bus.jsonl`에 JSON append
+> - **전체 상태**: `$HEXA $NEXUS/mk2_hexa/native/command_router.hexa "contribution 상태"`
 
 # CLAUDE.md
 
@@ -28,7 +28,7 @@
 법원 제출 문서(진술서/호소문/README)에 숫자·성과를 인용할 때는 다음 순서로 **직접 확인**:
 
 1. `~/Dev/papers/*` 디렉토리 `ls` — 논문 편수
-2. `~/Dev/nexus/shared/growth_bus.jsonl` — 돌파/발견 로그
+2. `$NEXUS/shared/growth_bus.jsonl` — 돌파/발견 로그
 3. `~/Dev/n6-architecture`, `~/Dev/anima` README — 최신 성과
 4. 기존 `contribution/` 문서는 **스냅샷**일 뿐, 재확인 없이 재사용 금지
 
