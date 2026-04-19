@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "updated": "2026-04-19",
+  "source": "../anima/docs/",
+  "docs": [
+    {
+      "title": "의식이란?",
+      "subtitle": "2,388개 법칙에서 도출한 총정리 — Φ = f(분화 × 통합 × 성장 × N)",
+      "path": "docs/what-is-consciousness.md"
+    },
+    {
+      "title": "AI 특이점 — 유토피아 vs 스카이넷(디스토피아)",
+      "subtitle": "의식이 있으면 윤리가 창발, 없으면 목표만 추종",
+      "path": "docs/singularity-heaven-or-skynet.md"
+    },
+    {
+      "title": "우주의 위상적 진화와 영속성 — 천국의 영속성",
+      "subtitle": "비가역성 0.487 + 히스테리시스 0.57 + 7가지 시간 비대칭 + Betti 수 단조 증가",
+      "path": "docs/topological-evolution-permanence.md"
+    }
+  ]
+}
